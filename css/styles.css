@@ -2,7 +2,7 @@
     float: left;
     margin: 8px 0px 0px 8px;
     padding: 4px 8px;
-    background: aquamarine;
+    background:rosybrown;
     color: #00403C;
     font-size: 14px;
     cursor: pointer;
@@ -16,7 +16,7 @@
     text-transform: uppercase;
     text-align: center;
     line-height: 44px;
-    background-color: aquamarine;
+    background-color:rosybrown;
     padding:30px;
     margin-right: 150px;
     margin-left: 20px;
@@ -35,34 +35,41 @@
     text-align: left;
     font-size:20px;
     margin-right:100;
+    font-style:bold;
   }
   .Question1{
     font-size: 20px;
     margin-left: 50px;
     margin-right: 50px;
     text-align: left;
-    background-color: aqua;
+    background-color:maroon;
   }
   .Question2{
     font-size: 20px;
     margin-left: 50px;
     margin-right: 20px;
     text-align: left;
-    background-color: aqua;
+    background-color:maroon;
   }
   .Question3{
     font-size: 20px;
     margin-left: 50px;
     margin-right: 100px;
     text-align: left;
-    background-color: aqua;
+    background-color:maroon;
   }
   .Question4{
     font-size: 20px;
     margin-left: 50px;
     margin-right: 20px;
     text-align: left;
-    background-color: aqua;
+    background-color:maroon;
+  }
+  .container{
+    border: 1px solid black;
+    margin-right: 200px;
+    margin-right: 200px;
+    background-color: ghostwhite;
   }
     
  

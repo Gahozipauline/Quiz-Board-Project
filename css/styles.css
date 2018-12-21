@@ -7,16 +7,33 @@
     font-size: 14px;
     cursor: pointer;
     outline: none;
+    text-align: center;
   }
   h1 {
     color: #00403C;
     font-weight: 600;
     font-size: 36px;
     text-transform: uppercase;
-    text-align: left;
+    text-align: center;
     line-height: 44px;
+    background-color: #9ACFCC;
+    padding:30px;
+    margin-right: 200px;
+    margin-left: 200px;
   }
-  
+  p{
+    font-size: 20px;
+    background-color: aquamarine;
+    margin-left: 50px;
+    margin-right: 200px;
+    text-align: left;
+  }
+  body{
+    background-color:grey;
+  }
+  .form-group{
+    text-align: left;
+  }
   
 
 

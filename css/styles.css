@@ -18,8 +18,8 @@
     line-height: 44px;
     background-color: aquamarine;
     padding:30px;
-    margin-right: 200px;
-    margin-left: 200px;
+    margin-right: 150px;
+    margin-left: 20px;
   }
   p{
     font-size: 20px;
@@ -29,19 +29,40 @@
   }
   body{
     background-color:grey;
-    margin-left: 200px;
+    margin-left: 300px;
   }
   .form-group{
     text-align: left;
     font-size:20px;
+    margin-right:100;
   }
   .Question1{
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: left;
+    background-color: aqua;
+  }
+  .Question2{
     font-size: 20px;
     margin-left: 50px;
     margin-right: 20px;
     text-align: left;
     background-color: aqua;
   }
+  .Question3{
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 100px;
+    text-align: left;
+    background-color: aqua;
+  }
+  .Question4{
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 20px;
+    text-align: left;
+    background-color: aqua;
   }
     
  

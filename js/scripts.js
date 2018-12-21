@@ -8,9 +8,6 @@
                 var userInput = $("input#" + Quiz).val();
                 $("." + Quiz).text(userInput);
               });
-        
-              $("#story").show();
-        
-              event.preventDefault();
+               event.preventDefault();
             });
           }); 

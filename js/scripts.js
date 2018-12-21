@@ -3,6 +3,7 @@
 
           $(document).ready(function() 
           {
+            $("blanks form").submit(function(event){
         var A1=parseInt($("input:radio[name=answer1]:checked").val());
         var A2=parseInt($("input:radio[name=answer2]:checked").val());
         var A3=parseInt($("input:radio[name=answer3]:checked").val());

@@ -3,29 +3,32 @@
 
           $(document).ready(function() 
           {
-          var A1=document.forms["form-control"]["answer"].value;
-          var A2=document.forms["form-control"]["answer2"].value;
-          var A3=document.forms["form-contol"]["answer3"].value;
-          var A4=document.forms["form-control"]["answer4"].value;
+        var A1=parseInt($("input:radio[name=answer1]:checked").val());
+        var A2=parseInt($("input:radio[name=answer2]:checked").val());
+        var A3=parseInt($("input:radio[name=answer3]:checked").val());
+        var A4=parseInt($("input:radio[name=answer4]:checked").val());
         
-          var Quiz=[0];
-          if(A1=="Livewire")
+          var result=[0];
+          if(A1==="Livewire")
           {
-           marks=marks+5;
+           marks+=5;
            }
-          if(A2=="storing numbers,dates,or other values")
+          if(A2==="storing numbers,dates,or other values")
           {
-           marks=marks+5;
+           marks+=5;
            }
-          if(A3=="Javascript syntax is loosely based on java's")
+          if(A3==="Javascript syntax is loosely based on java's")
           {
-           marks=marks+5;
+           marks+=5;
           }
-          if(A4=="Yes")
-          marks=marks+5;
+          if(A4==="Yes")
           {
+            marks+=5;
+          }
            
-             alert("your score is:"+marks);
-          
+             //alert("your score is:" + marks);
+             $().show();
+             $("#display").text("Your result is:" + marks);
+             event.preventDefault();
           }
       

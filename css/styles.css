@@ -23,9 +23,8 @@
   }
   p{
     font-size: 20px;
-    background-color:aqua;
     margin-left: 50px;
-    margin-right: 200px;
+    margin-right: 20px;
     text-align: left;
   }
   body{
@@ -34,6 +33,15 @@
   }
   .form-group{
     text-align: left;
+    font-size:20px;
+  }
+  .Question1{
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 20px;
+    text-align: left;
+    background-color: aqua;
+  }
   }
     
  

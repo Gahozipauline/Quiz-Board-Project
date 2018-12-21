@@ -2,7 +2,7 @@
     float: left;
     margin: 8px 0px 0px 8px;
     padding: 4px 8px;
-    background: #9ACFCC;
+    background: aquamarine;
     color: #00403C;
     font-size: 14px;
     cursor: pointer;
@@ -16,24 +16,27 @@
     text-transform: uppercase;
     text-align: center;
     line-height: 44px;
-    background-color: #9ACFCC;
+    background-color: aquamarine;
     padding:30px;
     margin-right: 200px;
     margin-left: 200px;
   }
   p{
     font-size: 20px;
-    background-color: aquamarine;
+    background-color:aqua;
     margin-left: 50px;
     margin-right: 200px;
     text-align: left;
   }
   body{
     background-color:grey;
+    margin-left: 200px;
   }
   .form-group{
     text-align: left;
   }
+    
+ 
   
 
 
